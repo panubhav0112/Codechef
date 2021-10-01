@@ -1,5 +1,5 @@
 for i in range(int(input())):
-  _ =input()
+  ip = input()
   arr = list(map(int,input().split()))
   sum1,sum2 = 0,0
   for a in sorted(arr,reverse=True):
